@@ -57,11 +57,6 @@ class API_Endpoint(http.server.BaseHTTPRequestHandler):
         return
             
 
-5            
-'''
-- do longest chain
-'''
-
 def main(serv_on):
     try:
         server = http.server.HTTPServer((serv_on), API_Endpoint)
