@@ -11,4 +11,4 @@ Currently this is a single use implementation for the lcs functionality so the f
 
 - Downloade webser36.py and lcs_resonses.py to the executoin directory of your choosing
 - Mark them as executable based on the operating system you are using
-#  --> /path/to/your/python3.6/binaries webserver36.py
+##  --> /path/to/your/python3.6/binaries webserver36.py
