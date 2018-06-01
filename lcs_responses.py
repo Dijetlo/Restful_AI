@@ -76,13 +76,13 @@ def no_data(self):
     self.wfile.write(bytes(output, "utf-8"))
 
 def dupes(self,):    
-        self.send_response(200)
-        self.send_header('content-type', 'application/json')
-        self.end_headers()
-        output = ""
-        output += "<html><head><title>API Endpoint Server</title></head>"
-        output += "<h1>RESPONSE 200: YOU GOT DUPES<h1>"
-        output += "<h2>Duplicate values in your dictionary, man...<h1>"
-        output += "<h3> You know that aint right...</h3></html>"
-        self.wfile.write(bytes(output, "utf-8"))
-        return
+    self.send_response(200)
+    self.send_header('content-type', 'application/json')
+    self.end_headers()
+    output = ""
+    output += "<html><head><title>API Endpoint Server</title></head>"
+    output += "<h1>RESPONSE 200: YOU GOT DUPES<h1>"
+    output += "<h2>Duplicate values in your dictionary, man...<h1>"
+    output += "<h3> You know that aint right...</h3></html>"
+    self.wfile.write(bytes(output, "utf-8"))
+    return
