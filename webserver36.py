@@ -14,6 +14,9 @@ import http.server
 
 '''
 class API_Endpoint(http.server.BaseHTTPRequestHandler):
+    
+    def do_HEAD():
+        pass
 
     def do_GET(self):
         pass
@@ -24,7 +27,7 @@ class API_Endpoint(http.server.BaseHTTPRequestHandler):
         self.ctype, self.pdict = cgi.parse_header(self.headers.get('content-type'))
         self.post_str = self.rfile.read((int(self.headers.get('Content-Length')))).decode('utf-8')    
         
-        if self.path.endswith('/lcs'):
+        if self.path.endswith('/api/v1/lcs'):
             import json, lcs_responses as answer
 
             self.con_type = "application/json"
@@ -55,12 +58,6 @@ class API_Endpoint(http.server.BaseHTTPRequestHandler):
             
         answer.ok(self,[str(i) for i in self.vals])
         return
-            
-
-5            
-'''
-- do longest chain
-'''
 
 def main(serv_on):
     try:
