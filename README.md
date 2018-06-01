@@ -23,5 +23,3 @@ location: /api/v1/lcs
 
 Top leve dictionary must have key 'setOfStrings' sub key must be string "value".
 Broken subkey values - i.e. { "value" : "Erp, Derpa, Derp"} get split on the white space and tossed in the word chipper along with the rest.
-
-Very handy for obsessive/compulsives who worry incessently about things like longest common substring.
