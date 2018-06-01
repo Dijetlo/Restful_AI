@@ -14,9 +14,11 @@ Currently this is a single use implementation for the lcs functionality so the f
 ###  --> /path/to/your/python3.6/binaries webserver36.py
 
 ### Longest Common String -
-#### header: application/json -
+header: application/json -
+
 body:
 { "setOfStrings" : [{“value" : "string1"}, {“value" : "string2”}, {“value" : "String 3 yeah, this works too”}] }
+
 location: /api/v1/lcs
 
 Top leve dictionary must have key 'setOfStrings' sub key must be string "value".
