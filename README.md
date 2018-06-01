@@ -15,12 +15,12 @@ Currently this is a single use implementation for the lcs functionality so the f
 Execution String: /path/to/your/python3.6/binaries webserver36.py
 
 ### Longest Common String -
-header: application/json -
+header: application/json
 
 body:
 { "setOfStrings" : [{“value" : "string1"}, {“value" : "string2”}, {“value" : "String 3 yeah, this works too”}] }
 
 location: /api/v1/lcs
 
-Top leve dictionary must have key 'setOfStrings' sub key must be string "value".
+Top level dictionary must have key 'setOfStrings' sub key must be string "value".
 Broken subkey values - i.e. { "value" : "Erp, Derpa, Derp"} get split on the white space and tossed in the word chipper along with the rest.
