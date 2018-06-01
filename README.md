@@ -7,11 +7,12 @@ Python 3.6 web server:
 ## Installation
 There are no dependencies outside the python3.6 Standard Template Library asociated with this web server. 
 Batteries included.
-Currently this is a single use implementation for the lcs functionality so the file "lcs_responses.py" from this git is also required. The two files, webserver36.py and lcs_responses must live in the same directory.
+Currently this is a single use implementation for the lcs functionality so the file "lcs_responses.py" from this git is also required. The two files, webserver36.py and lcs_responses.py must live in the same directory.
 
-- Downloade webser36.py and lcs_resonses.py to the executoin directory of your choosing
+- Downloade webser36.py and lcs_responses.py to the execution directory of your choosing
 - Mark them as executable based on the operating system you are using
-###  --> /path/to/your/python3.6/binaries webserver36.py
+
+Execution String: /path/to/your/python3.6/binaries webserver36.py
 
 ### Longest Common String -
 header: application/json -
