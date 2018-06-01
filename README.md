@@ -19,4 +19,6 @@ body
 { "setOfStrings" : [{“value" : "string1"}, {“value" : "string2”}, {“value" : "String 3 yeah, this works too”}] }
 location: /api/v1/lcs
 
-Dictionary key must be string value "value", other than that you feed it anything you can type. Broken val i.e. "Erp, Derpa, Derp" are righteous voodoo as far as this gizmo is concerned. 
+Top leve dictionary must have key 'setOfStrings' sub key must be string "value".
+Broken subkey values - i.e. { "value" : "Erp, Derpa, Derp"} are get split into components and tossed in the word chipper.
+Very handy for obsessive/compulsives who worry incessently about things like longest chain.
