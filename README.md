@@ -16,5 +16,5 @@ Currently this is a single use implementation for the lcs functionality so the f
 Execution String: /path/to/your/python3.6/binaries webserver36.py
 
 ### Goals:
-- Micros service Dev/Ops tool that retains idempotency and is aplicable to the widest number of use cases. See wiki
+- Micro service Dev/Ops tool that retains idempotency and is aplicable to the widest number of use cases. See wiki
 
