@@ -1,4 +1,5 @@
-# Restful AI --- The AI stands for Automated Infrastructure, not the other thing...
+# Restful AI
+### The AI stands for Automated Infrastructure, not the other thing...
 ## webserver36
 Python 3.6 web server:
 - Requirement: Python3.6 only - no modules external to the python 3.6 STL
