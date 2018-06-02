@@ -11,7 +11,7 @@ There are no dependencies outside the python3.6 Standard Template Library asocia
 Batteries included.
 Currently this is a single use implementation for the lcs functionality so the file "lcs_responses.py" from this git is also required. The two files, webserver36.py and lcs_responses.py must live in the same directory.
 
-- Downloade webser36.py and lcs_responses.py to the execution directory of your choosing
+- Download webser36.py and lcs_responses.py to the execution directory of your choosing
 - Mark them as executable based on the operating system you are using
 
 Execution String: /path/to/your/python3.6/binaries webserver36.py
