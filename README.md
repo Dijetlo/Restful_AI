@@ -1,7 +1,7 @@
-# webserver36
-Python 3.6 web server:
+# server36
+Python 3.6 API server:
 - Requirement: Currently tested on python3.6 only. Use of interpolitive strings restricts earlier versions.
-- Simple web server currently implemented with a "longest common substring " gizmo attached at /lcs
+- Simple API server currently implemented with a "longest common substring " gizmo attached at /lcs
 - Set to use localhost on port 7777 (localhost:7777/lcs)
 
 ## Installation
